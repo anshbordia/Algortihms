@@ -2,3 +2,4 @@ Contains implementation of:
   1) Insertion Sort
   2) Merge Sort
   3) Binary Search
+Note: The code for Binary Search uses Insertion sort code file 
