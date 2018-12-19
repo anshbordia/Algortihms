@@ -15,7 +15,7 @@ def insertsort(arr):
     
 if __name__ == "__main__":
     print("Please enter an array you wish to sort: ")
-    a = [int(x) for x in input().split()]
+    a = [float(x) for x in input().split()]
     sorted_array = insertsort(a)
     print("Sorted Array: ", sorted_array)
     
