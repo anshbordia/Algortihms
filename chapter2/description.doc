@@ -4,3 +4,4 @@ Contains implementation of:
   3) Binary Search
   4) Selection Sort
 Note: The code for Binary Search uses Insertion sort code file 
+      If you are using decimal point numbers, please change int(x) in main while taking input to float(x)
