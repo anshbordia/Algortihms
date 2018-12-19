@@ -1,3 +1,8 @@
+// Counting Sort Program
+// Runs in linear time: O(n)
+// This is not an in-place sort
+// This is a stable sort
+
 #include <stdio.h>
 #include <stdlib.h>
 
