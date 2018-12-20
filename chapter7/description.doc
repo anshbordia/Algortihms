@@ -1,3 +1,4 @@
 Chapter 7 Algorithm Implementations (In C):
 1) Quicksort 
 2) Randomized Quicksort 
+3) Tail Recursive Quicksort
