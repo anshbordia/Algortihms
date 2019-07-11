@@ -1,2 +1,2 @@
-# clrsbook
-Codes for CLRS book
+# algorithms
+Implementation of different algorithms
