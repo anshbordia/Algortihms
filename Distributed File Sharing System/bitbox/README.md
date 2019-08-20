@@ -1,5 +1,5 @@
-A decentralized Distributed File Sharing System.
-Developed as part of University Project for the course Distributed Systems.
+A decentralized Peer to Peer Distributed File Sharing System.
+Developed as part of University Project for the subject Distributed Systems.
 
 Breif Description:
 Syncs a shared folder between multiple computers by:
