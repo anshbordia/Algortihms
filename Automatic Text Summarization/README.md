@@ -1,1 +1,17 @@
-Extractive Text Summarization (Upcoming)
+Extractive Text Summarization:
+
+Outputs the most important sentences of an article based on a sentence scoring scheme.
+
+The following implementations are used to tackle the problem:
+1) Artificial Neural Network (ANN) - Gives the best accuracy. Use this to produce summaries of articles.
+The next implementations were done to compare their performance against the Neural Network. So, they only output the accuracy their accuracy on the dataset, however, can be easily extended to output summaries.
+2) Random Forest
+3) Decision Tree
+4) Support Vector Machine (SVM)
+5) Naive Bayes
+6) K-Nearest Neighbours (KNN)
+
+Works best on newspaper articles as it is trained to summarise them.
+
+Merge.csv is the a specially curated dataset for this task from many different newspaper articles (although I have only put a small fraction of it publicly).
+
