@@ -15,3 +15,7 @@ Works best on newspaper articles as it is trained to summarise them.
 
 Merge.csv is the a specially curated dataset for this task from many different newspaper articles (although I have only put a small fraction of it publicly).
 
+Please see the attached published research paper summarization_paper.pdf for a detailed description of the project.
+
+Simply download the files and run the python script ann.py
+
