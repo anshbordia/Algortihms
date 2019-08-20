@@ -139,45 +139,20 @@ classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = [
 classifier.fit(X_train, y_train, batch_size = 10, nb_epoch = 100)
 
 # Predicting the Test set results
-#y_pred = classifier.predict(corp)
+y_pred = classifier.predict(corp)
 y_predtr = classifier.predict(X_test)
 
 
-from sklearn.model_selection import cross_val_score
+""""from sklearn.model_selection import cross_val_score
 accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10)
 meank = accuracies.mean()
-stdk = accuracies.std()
+stdk = accuracies.std()"""
 
-holder = []
-for i in y_pred:
-    holder.append(i)
+for i in range(0, len(y_pred)):
+    if y_pred[i] == 1:
+        print(sentence[i])
 
-
-
-"""for i in range(0, len(y_pred)):
-    if y_pred[i] > 0.6:
-        holder.append(y_pred[i])"""
-
-holder_size = len(holder) 
-        
 counter = 0
-for i in y_pred:
-    if i > 0.6:
-        counter = counter + 1 
-if ctrr > 4:
-    diff = counter - 4
-    counter = counter - diff
-  
-
-maxm = []
-
-for i in range(0, counter):
-    maxm.append(holder.index(max(holder)))
-    tempo = holder.index(max(holder))
-    holder[tempo] = 0
-    print(sentence[holder.index(max(holder))])
-
-
 for number in y_pred:
     if number == 1:
         counter = counter + 1
@@ -188,8 +163,16 @@ if counter == 0:
     for record in corp:
         scr = 0.5 * record[0] + 1.5 * record[1] + 0.2 * record[2] + 0.5 * record[3] + 0.3 * record[4] + 0.5 * record[5] 
         score.append(scr)
-    
-    print(score)        
-    print(sentence[score.index(max(score))])
-
-
+            
+    if(len(score) < 5):
+        print(sentence[score.index(max(score))])
+    elif(len(score) < 10):
+        print(sentence[score.index(max(score))])
+        score[score.index(max(score))] = -1
+        print(sentence[score.index(max(score))])
+    else:
+        print(sentence[score.index(max(score))])
+        score[score.index(max(score))] = -1
+        print(sentence[score.index(max(score))])
+        score[score.index(max(score))] = -1
+        print(sentence[score.index(max(score))])
