@@ -7,4 +7,5 @@ Contains the following Algorithms:
 5) Selection Sort
 6) Heap Sort
 7) Binary Search
-8) Bucket Sort
+8) Insertion Sort
+9) Bucket Sort
