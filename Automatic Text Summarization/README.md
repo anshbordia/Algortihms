@@ -19,3 +19,14 @@ Please see the attached published research paper summarization_paper.pdf for a d
 
 Simply download the files and run the python script ann.py
 
+Dependencies:
+1) Python 3.6 (Could scale to other versions easily with minor changes)
+2) Keras
+3) NLTK
+4) Numpy
+5) Pandas
+6) Sklearn
+
+
+
+
