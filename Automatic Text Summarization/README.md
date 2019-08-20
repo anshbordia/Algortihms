@@ -26,6 +26,7 @@ Dependencies:
 4) Numpy
 5) Pandas
 6) Sklearn
+7) Tensorflow
 
 
 
