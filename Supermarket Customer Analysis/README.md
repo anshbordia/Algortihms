@@ -1,1 +1,1 @@
-Analysis of supermarket customer buying patterns using association rule mining (Upcoming)
+Analysis of supermarket customer buying patterns using association rule mining (Development in Progress)
