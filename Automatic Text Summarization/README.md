@@ -17,7 +17,7 @@ Merge.csv is the a specially curated dataset for this task from many different n
 
 Please see the attached published research paper summarization_paper.pdf for a detailed description of the project.
 
-Simply download the files and run the python script ann.py
+Simply download the files and run the python script ann.py. Give the article within double quotes.
 
 Dependencies:
 1) Python 3.6 (Could scale to other versions easily with minor changes)
