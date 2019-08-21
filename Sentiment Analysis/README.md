@@ -6,7 +6,7 @@ Sentiment Analysis:
   You can also add your own reviews in the dataset.
   Naive Bayes used.
 
-2) On Twitter Dataset
+2) On Twitter Dataset:
   To determine if a tweet is postive, negative or neutral.
   Done using Weka. 
   See the attached report on how to do this in Weka.
